@@ -1,4 +1,4 @@
-if (process.env.NODE_ENV !== 'production') {
+if (process.env.NODE_ENV !== "production") {
     require('dotenv').config();
 }
 
@@ -32,7 +32,7 @@ const { ppid } = require('process');        //parent process id, Including the n
 const { application } = require('express');
 const campground = require('./models/campground');
 
-const dbUrl ='mongodb://127.0.0.1:27017/yelp-camp' || process.env.DB_URL;
+const dbUrl = process.env.DB_URL || 'mongodb://127.0.0.1:27017/yelp-camp';
 
 
 
@@ -175,8 +175,8 @@ app.use((err, req, res, next) => {
 
 })
 
-const port = process.env.PORT||3000
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
-    console.log('serving on port 3000');
+    console.log(`Serving on port ${port}`);
 })
 //
