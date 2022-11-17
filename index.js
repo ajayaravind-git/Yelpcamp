@@ -32,7 +32,7 @@ const { ppid } = require('process');        //parent process id, Including the n
 const { application } = require('express');
 const campground = require('./models/campground');
 
-const dbUrl = 'mongodb://127.0.0.1:27017/yelp-camp' || process.env.DB_URL;
+const dbUrl ='mongodb://127.0.0.1:27017/yelp-camp' || process.env.DB_URL;
 
 
 
