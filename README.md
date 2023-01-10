@@ -11,7 +11,6 @@ A fully functional camping website with the ability to  add, remove, update and 
 
 ## Functionalities
 
-## Lists
 + Log-in functionality
 + Authentication
 + Authorization
