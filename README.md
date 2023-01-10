@@ -1,7 +1,7 @@
 # Yelpcamp
 
 
-[Website](https://yelpcampproject-ts6h.onrender.com)
+[YelpCamp Website](https://yelpcampproject-ts6h.onrender.com)
 
 
 **Camping Website made with EJS and ExpressJS**
